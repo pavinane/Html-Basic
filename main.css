@@ -22,6 +22,7 @@ body{
     float:left;
 }
 .menu{
+    margin:0 100px;
     float:left;
 }
 .menu > ul {
@@ -30,9 +31,10 @@ body{
 .menu > ul > li { 
     float:left;
     padding:15px 20px;
+    cursor: pointer;
 }
 .social-media{
-    /* float:left; */
+    float:left;
 }
 .social-media > ul {
     list-style-type:none;
@@ -41,23 +43,28 @@ body{
     float:left;
     padding: 15px;
 }
+.fab{
+    cursor: pointer;
+}
+}
 .slider{
     height: 500px;
     /* background:yellow; */
 }
 .slide {
-    width:900px;
+    width:1000px;
     height:500px;
     /* background: blue; */
     margin: 0 auto;
     color:#fff;
-    background-image :url(./pavi.png);
+    background-image :url(./44.png);
     background-repeat: no-repeat;
     opacity: 0.9;
 }
 .slide >h3{
     text-align: center; 
     margin:0;
+    padding-top: 200px;
 }
 .slide >h2{
     text-align: center;
@@ -65,24 +72,54 @@ body{
 .slide >p{
     text-align: center; 
 }
+
 .card-section {
-    height: 400px;
-    background:violet
+    height: 350px;
+    /* background:violet */
 }
 .cards {
     width: 1000px;
-    background:grey;
-    margin:0 auto;
+    /* background:grey; */
+    margin:15px auto;
 }
-.left-card, .center-card, .right-card {
+.left-card {
+    width: 300px;
     float:left;
+}
+.center-card{
+    width: 300px;
+    float:left;
+    padding: 0 50px;
+}
+.right-card{
+    width: 300px;
+    float:left;
+}
+.left-card >button, .center-card >button, .right-card >button{
+    display:block;
+    margin:15px auto;
+    border:0;
+    background-color: brown;
+    color: white;
+    width:100px;
+    height:30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.left-card >h3, .center-card >h3, .right-card >h3{
+    text-align: center;
+}
+.left-card >p, .center-card >p, .right-card >p{
+text-align: center;
 }
 .footer{
     height:100px;
-    /* background:brown; */
+    background:brown;
 }
 .footer >p {
     text-align: center;
     padding-top:45px;
     margin:0;
+    color: #fff;
 }
