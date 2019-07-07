@@ -1,0 +1,16 @@
+.header {
+    height: 100px;
+    background:red;
+}
+.navigation {
+    width: 1000px;
+    background: green;
+    /* margin-top:0; 
+    margin-bottom:0;
+    margin-left:194px;
+    margin-right:100px;  */
+    /* margin: 0 100px 0 194px; */
+    /* margin: 0 150px; */
+    margin:0 auto;
+    
+}
