@@ -14,3 +14,29 @@
     margin:0 auto;
     
 }
+.slider{
+    height: 500px;
+    background:yellow;
+}
+.slide {
+    width:1000px;
+    background: blue;
+    margin: 0 auto;
+}
+.card-section {
+    height: 400px;
+    background:violet
+}
+.cards {
+    width: 1000px;
+    background:grey;
+    margin:0 auto;
+}
+.footer{
+    height:100px;
+    background:brown;
+}
+.footer >p {
+    text-align: center;
+    padding-top:45px;
+}
