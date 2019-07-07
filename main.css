@@ -3,6 +3,7 @@ body{
     padding:0;
 }
 .header {
+    font-family: 'Courgette', cursive;
     height: 100px;
     /* background:red; */
 }
@@ -20,6 +21,9 @@ body{
 }
 .logo{
     float:left;
+}
+.logo >h1{
+    font-family: 'Courgette', cursive;
 }
 .menu{
     margin:0 100px;
@@ -65,11 +69,14 @@ body{
     text-align: center; 
     margin:0;
     padding-top: 200px;
+    font-family: 'Acme', sans-serif;
 }
 .slide >h2{
+    font-family: 'Acme', sans-serif;
     text-align: center;
 }
 .slide >p{
+    font-family: 'Satisfy', cursive;
     text-align: center; 
 }
 
@@ -106,12 +113,16 @@ body{
     font-size: 12px;
     text-transform: uppercase;
     cursor: pointer;
+    font-family: 'Satisfy', cursive;
 }
 .left-card >h3, .center-card >h3, .right-card >h3{
     text-align: center;
+    font-family: 'Acme', sans-serif;
 }
 .left-card >p, .center-card >p, .right-card >p{
 text-align: center;
+font-family: 'Satisfy', cursive;
+color: gray
 }
 .footer{
     height:100px;
@@ -122,4 +133,5 @@ text-align: center;
     padding-top:45px;
     margin:0;
     color: #fff;
+    font-family: 'Great Vibes', cursive;
 }
